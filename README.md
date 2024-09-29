@@ -1,2 +1,22 @@
-# Proyek-Dicoding
-Proyek Akhir Dicoding: Analisis data dengan Python.
+# Dicoding Collection Dashboard ✨
+
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+## Setup Environment - Shell/Terminal
+```
+mkdir Bike
+cd Bike
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+## Run steamlit app
+```
+streamlit run bike_dashboard.py
+```
