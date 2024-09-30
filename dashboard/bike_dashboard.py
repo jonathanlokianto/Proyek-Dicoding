@@ -7,7 +7,7 @@ from matplotlib.ticker import FuncFormatter
 
 sns.set_theme(style='dark')
 
-day_df = pd.read_csv('/day.csv')
+day_df = pd.read_csv('\day.csv')
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 day_df.sort_values(by='dteday', inplace=True)
 day_df.reset_index(drop=True, inplace=True)
